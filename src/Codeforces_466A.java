@@ -7,8 +7,6 @@ public class Codeforces_466A {
     static Scanner p = new Scanner(System.in);
     public static void main(String[] args) {
         String[] nmab = p.nextLine().split(" ");
-        int mb = Integer.parseInt(nmab[1]) * Integer.parseInt(nmab[3]);
-        int na = Integer.parseInt(nmab[0]) * Integer.parseInt(nmab[2]);
         int n = Integer.parseInt(nmab[0]);
         int m = Integer.parseInt(nmab[1]);
         int a = Integer.parseInt(nmab[2]);
